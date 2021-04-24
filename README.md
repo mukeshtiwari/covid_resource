@@ -13,3 +13,9 @@ Name, Phone Number, Items, PinCode, City
    
   
 
+create table resources(
+  name  varchar, 
+  phone varchar primary key, 
+  pincode varchar, 
+  city varchar, 
+  items varchar)
